@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>AZoom Car Rental Profile</title>
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: aqua;
+}
+
+div {
+margin-bottom:5px;
+}
+
+.nav >ul {
+    display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+    justify-content: space-around;
+    height:40px;	
+    align-content: flex-end;
+}
+
+.changeMouse{
+	cursor:not-allowed;
+	font-weight:bold;
+}
+
+a {
+   text-decoration: none;
+   margin: 10px;
+   font-weight:bold;
+}
+
+a:link{
+	color:black	
+}
+
+li {
+  display: inline-block;
+  padding: 5px; 
+}
+
+div {
+  text-align: center;
+}
+
+.container {
+  display:grid;  
+  grid-template-columns: repeat(1fr,15);
+  grid-template-rows: 450px auto; 
+  grid-gap: 10px;
+}
+
+.main {
+    grid-row: 1/7;
+    grid-column: 9/12;
+}
+
+.blog {
+    grid-row: 1/7;
+    grid-column: 12/15;
+}
+
+.footer {
+    grid-row: 7/9;
+    grid-column: 1/15;
+}
+
+.side{ 
+   grid-row: 1/7;
+   grid-column: 1/9;   
+}
+
+.main {   
+   background-color: rgb(173,216,230,0.3);
+   color: black;
+   text-align:left;
+}
+
+.blog {   
+   background-color: rgb(173,216,230,0.3);
+   color: white;
+}
+
+.footer{ 
+   background-color: black;
+   color: white;
+   text-align:left;
+}
+
+.side{ 
+   background-color: rgb(173,216,230,0.3);
+   color: white;   
+}
+
+
+
+</style>
+
+
+</head>
+
+<body>
+
+<div>
+<header class="header">
+            <div class="banner">
+                <b style = "color:blue; font-size:70px">AZoom Car Rental</b>
+				<img src = "Pict/logo.png" alt = "log AZoom Car Rental" height = "60px" width = "50px">
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li> <a href="index.html">Home</a></li>
+                    <li class = "changeMouse" onclick = "alert('Please login to see your status')">Status</li>
+                    <li class = "changeMouse" onclick = "alert('Please login to make payment')"> Payment</li>
+					<li class = "changeMouse" onclick = "alert('Please login to make Reservation')"> Reservation</li>
+                    <li> <a href="about.html">About</a></li>
+					<li><a href = 'login.html'>Login</a></li>
+					<li><a href = 'signUp.html'>Sign up</a></li>
+                </ul>
+				
+</header>
+</div>
+
+
+<div class='container'>
+
+	<div class='side'>
+
+		
+	</div>
+
+	<div class='main'>
+
+		<h2>About Us</h2><br/>
+			<P><b>Budget Car Rental in Singapore</b></p><br/>
+			<p>Here at Azoom Car Rental, we provide the cheapest car rental service in Singapore. 
+			Azoom Car Rental is a new start-up car rental company. We plan to expand and upgrade
+			our operations to provide customers with the best budget car rental 
+			options. At the moment, we have 3 car models that satisfy customer needs and requirements.</P><br/>
+			<p>Azoom Car Rental's purpose is to provide affordable car rental and leasing services in 
+			Singapore. We believe that every person should get the opportunity to drive a car in Singapore 
+			whenever they want without having to worry about the ridiculous costs that go behind owning a 
+			private vehicle.</p><br/>
+			<p>Do you fancy a weekend getaway in a car? Or are you looking for a cheap and budget car rental in 
+			SG? Well, Azoom Car Rental is here for you!<p><br/>
+			<p><b>Why should you rent a car with us?</b></p><br/>
+			<p>As the top budget car rental and leasing service in Singapore, we at Azoom Car Rental believe in 
+			offering our customers the best rates and experience whenever they drive with us. This is why on top 
+			of our cheap and reasonable rates, we do not require our customers to pay a deposit or maintenance fee 
+			whenever they rent our cars. You leave the numbers to us, and we’ll provide you with your desired car 
+			rental experience in Singapore. So why worry about the installment and insurance plans that come with 
+			purchasing a car? Rent a car instead with Azoom Car Rental to make your life easy today!</P>
+			
+
+</div>
+
+<div class='blog'>
+
+
+</div>
+
+<div class='footer'>
+
+<ul>
+	<li><a style="color:white;" href ="https://goo.gl/maps/HbBAw8fRN6D8MPEo9" target="_blank"> Locate us </a></li>
+	<li><a style="color:white;" href ="faq.html" target="_blank"> FAQ </a></li>
+	<li><a style="color:white;" href ="Getintouch.html" target="_blank"> Get in  Touch </a></li>
+	<li><a style="color:white;" href ="importantNotice.html" target="_blank"> Important notice </a></li>	
+</ul>
+
+&nbsp; &nbsp; <caption class='copy'>Copyright &copy; 2023 AZoom Car Rental. All rights reserved.</caption>
+
+</div>
+
+
+</div>
+
+</body>
+</html>
